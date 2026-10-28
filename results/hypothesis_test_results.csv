@@ -1,0 +1,6 @@
+Hypothesis,Contrast,Metric,Median_Ref,Median_Test,Wilcoxon_W,p_value,Cliffs_delta,Significance,Conclusion
+H1: Social Amplification,Full Coupled Contagion vs. Direct Chemical Cue Only,Peak Social Alarm (F_soc_max),0.0,0.4,0.0,1.6322428529318055e-06,1.0,*** (p < 0.001),Supported
+H1: Social Amplification,Full Coupled Contagion vs. Direct Chemical Cue Only,Peak Total Alarm (P_A_max),0.47,0.76,0.0,1.7116069924114545e-06,0.9577777777777777,*** (p < 0.001),Supported
+H2: Shoal Tightening,Full Coupled Contagion vs. Undisturbed Baseline,Acute Mean Spacing (acute_NND),0.990976174340175,0.9886227073852687,210.0,0.6554384250193834,0.04,ns (p = 0.655),Repulsion Floor Bounded
+H2: Polarisation Breakdown,Full Coupled Contagion vs. Undisturbed Baseline,Acute Polarisation (acute_Phi),0.8771629314187223,0.5353745444653075,0.0,1.862645149230957e-09,-1.0,*** (p < 0.001),Supported (Alignment Loss)
+H3: Kinematic Feedback,Full Coupled Contagion vs. Frozen-Kinematics Control,Peak Social Alarm (F_soc_max),0.38,0.4,80.0,0.015085803853740545,0.22111111111111112,* (p = 0.015),Supported (Feedback Modulates)
