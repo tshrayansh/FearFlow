@@ -2,11 +2,8 @@
 ### *In Silico* Disambiguation of Olfactory vs. Visual Fear Propagation in Shoaling Zebrafish (*Danio rerio*)
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Tests](https://img.shields.io/badge/tests-7%20passed-brightgreen.svg)](zebrafish_alarm_abm/tests/test_abm.py)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Figures](https://img.shields.io/badge/Figures-Publication%20Standard-purple.svg)](figures/)
 
-**Author:** Shrayansh  
+
 **Framework:** 2D Continuous Agent-Based Model (Couzin Zonal Social Forces + Olfactory Plume + Visual Contact Process)
 
 ---
@@ -78,8 +75,7 @@ Across 30 paired stochastic replicates (means $\pm$ SD):
 ```text
 FearFlow/
 ├── README.md                      # Project technical overview and results summary
-├── requirements.txt               # Minimal Python dependencies
-├── LICENSE                        # Open-source MIT license
+├── requirements.txt               # Minimal Python dependencies                        
 ├── run.py                         # One-command simulation entrypoint
 ├── zebrafish_alarm_abm/           # Core simulation package
 │   ├── __init__.py                # Package exports
@@ -130,5 +126,3 @@ python zebrafish_alarm_abm/run_experiments.py --rerun
 
 ---
 
-## 7. License
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
